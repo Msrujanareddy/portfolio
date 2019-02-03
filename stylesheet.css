@@ -6,13 +6,12 @@
 }
 .nav_bar{
   width: 100%;
+  background: #333;
 }
 .nav_bar ul{
-  background:#333;
-  width: 150%;
-  height: 100px;
-  margin: 0 auto;
-  padding: 10px;
+    width: fit-content;
+    height: 100px;
+    margin: 0 auto;
 }
   .nav_bar ul li {
     display: inline-block;
@@ -21,11 +20,11 @@
     text-align: center;
 }
 .nav_bar ul li img{
-  width: 90px;
-  height: 75px;
-  display: block;
-  padding: 2px;
-  border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: block;
+    /* padding: 2px; */
+    border-radius: 50%;
 }
 .nav_bar ul li a{
   color:white;
@@ -35,35 +34,48 @@
   margin: 0 auto;
 
 }
+.block_1{
+    height: 505px;
+    position: relative;
+}
+.block_1 div{
+    display: inline-block;
+}
+.profile_bar{
+    width: 300px;
+    padding: 75px;
+}
 .profile_bar img{
   width: 300px;
   height: 350px;
-  padding: 75px;
-  border-radius: 50%
+  border-radius: 50%;
 }
-.p_block h1{
-  padding-inline-start:inherit;
-  position: absolute;
-  left: 500px;
-  top: 250px;
-  float:right;
+.bio{
+    width: 850px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-50%);
+}
+.follow_me {
+    margin-top: 30px;
+}
+.follow_me img{
+    width: 40px; 
+    padding-left: 20px;  
+}
+.bio h1{
   font-size:3em;
   font-family:serif;
   color:#333;
   text-transform:uppercase;
+  text-align: center;
 }
-.p_block p{
-  font-style: oblique;
+.bio p{
+    font-style: oblique;
     font-size: large;
     padding-bottom: 20px;
     text-align: -webkit-center;
-    position: absolute;
-    left: 400px;
-    top: 350px;
 }
-.p_block  p img{
-  padding: 50px;
-  width:30px;
 
-}
-/**/
+
