@@ -20,7 +20,7 @@
     text-align: center;
 }
 .nav_bar ul li img{
-    width: 75px;
+    width: 85px;
     height: 75px;
     display: block;
     /* padding: 2px; */
@@ -43,15 +43,16 @@
 }
 .profile_bar{
     width: 300px;
-    padding: 75px;
+    padding: 55px;
 }
 .profile_bar img{
-  width: 300px;
-  height: 350px;
+  width: 295px;
+  height: 390px;
   border-radius: 50%;
+
 }
 .bio{
-    width: 850px;
+    width: 790px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -61,8 +62,8 @@
     margin-top: 30px;
 }
 .follow_me img{
-    width: 40px; 
-    padding-left: 20px;  
+    width: 40px;
+    padding-left: 20px;
 }
 .bio h1{
   font-size:3em;
@@ -74,8 +75,64 @@
 .bio p{
     font-style: oblique;
     font-size: large;
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: -webkit-center;
 }
-
-
+.work img
+{
+  position: relative;
+  left:400px;
+  width:400px;
+}
+.work_container p{
+  position: relative;
+  left:400px;
+  text-align:justify;
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: serif;
+}
+.contactme p{
+  font-size: 25px;
+  text-align:center;
+  margin: 0 auto;
+}
+.dm {
+  padding: 20px;
+  box-shadow: 20px;
+}
+.dm form{
+  width: 50%;
+  border-radius:1px solid black;
+    margin: 0 auto;
+}
+.dm form input {
+    width: 100%;
+    padding: 5px 0px 5px 5px;
+    border: none;
+    margin: 5px 0px;
+    color:black;
+    font-weight: bold;
+    font-style: oblique;
+}
+.ser form{
+  width: 50%;
+  border-radius:1px solid black;
+    margin: 0 auto;
+}
+.ser form input {
+    width: 100%;
+    padding: 5px 0px 5px 5px;
+    border: none;
+    margin: 5px 0px;
+    color:black;
+    font-weight: bold;
+    font-style: oblique;
+}
+.services p{
+  font-size: 25px;
+  text-align:center;
+  margin: 0 auto;
+}
+/**/
